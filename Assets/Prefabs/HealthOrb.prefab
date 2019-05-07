@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!58 &4530579331485431944
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8143195688740483033}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.25
+--- !u!114 &4251198830833544047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8143195688740483033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3385c3694fc44888c296de2528099e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  isFollowing: 0
+  despawnTime: 10
+  secondsToStartFlashing: 5
+  canFollow: 1
+  healValue: 10
+--- !u!1001 &8164285285173957477
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 22288614408879292, guid: cdb9808bee44f294ca5618108f70991e,
+        type: 3}
+      propertyPath: m_Name
+      value: HealthOrb
+      objectReference: {fileID: 0}
+    - target: {fileID: 22288614408879289, guid: cdb9808bee44f294ca5618108f70991e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22288614408879289, guid: cdb9808bee44f294ca5618108f70991e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22288614408879289, guid: cdb9808bee44f294ca5618108f70991e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22288614408879289, guid: cdb9808bee44f294ca5618108f70991e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22288614408879289, guid: cdb9808bee44f294ca5618108f70991e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22288614408879289, guid: cdb9808bee44f294ca5618108f70991e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22288614408879289, guid: cdb9808bee44f294ca5618108f70991e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22288614408879289, guid: cdb9808bee44f294ca5618108f70991e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22288614408879289, guid: cdb9808bee44f294ca5618108f70991e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22288614408879289, guid: cdb9808bee44f294ca5618108f70991e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22288614408879289, guid: cdb9808bee44f294ca5618108f70991e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22288614408879288, guid: cdb9808bee44f294ca5618108f70991e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f97db742e4196482f9c2e83326dff1a8,
+        type: 3}
+    - target: {fileID: 22288614408879288, guid: cdb9808bee44f294ca5618108f70991e,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22288614408879288, guid: cdb9808bee44f294ca5618108f70991e,
+        type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3351938295242975454, guid: cdb9808bee44f294ca5618108f70991e,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.75
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7973847928432966643, guid: cdb9808bee44f294ca5618108f70991e, type: 3}
+    - {fileID: 22288614408879291, guid: cdb9808bee44f294ca5618108f70991e, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: cdb9808bee44f294ca5618108f70991e, type: 3}
+--- !u!1 &8143195688740483033 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 22288614408879292, guid: cdb9808bee44f294ca5618108f70991e,
+    type: 3}
+  m_PrefabInstance: {fileID: 8164285285173957477}
+  m_PrefabAsset: {fileID: 0}
